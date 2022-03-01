@@ -8,6 +8,7 @@
   --dk-blue: hsl(233, 26%, 24%);
   --lime-Green: hsl(136, 65%, 51%);
   --bright-Cyan: hsl(192, 70%, 51%);
+  --gradient: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
   /* neutral */
   --grayish-blue: hsl(233, 8%, 62%);
   -lg-blue: hsl(220, 16%, 96%);
@@ -20,10 +21,15 @@ html {
 body {
   font-family: "Public Sans", sans-serif;
 }
-
+a:link,
+a:visited,
+p {
+  color: var(--grayish-blue);
+}
 p {
   font-size: 1.6rem;
 }
+
 .container {
   max-width: 107rem;
   margin: 0 auto;
@@ -58,7 +64,23 @@ button:hover,
 .show {
   display: block !important;
 }
-
+.btn:link,
+.btn:visited {
+  color: var(--white);
+  background-color: yellow;
+  background: linear-gradient(blue, pink);
+  background: var(--gradient);
+  text-decoration: none;
+  font-size: 1.4rem;
+  padding: 1.2rem 3rem;
+  display: inline-block;
+  border-radius: 2rem;
+  transition: all 0.3s;
+}
+.btn:hover,
+.btn:active {
+  opacity: 0.7;
+}
 /* 
 # Front-end Style Guide
 
