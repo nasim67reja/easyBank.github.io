@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dk-blue: hsl(233, 26%, 24%);
+  --lime-Green: hsl(136, 65%, 51%);
+  --bright-Cyan: hsl(192, 70%, 51%);
+  /* neutral */
+  --grayish-blue: hsl(233, 8%, 62%);
+  -lg-blue: hsl(220, 16%, 96%);
+  -vl-gray: hsl(0, 0%, 98%);
+  --white: hsl(0, 0%, 100%);
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Public Sans", sans-serif;
+}
+
+p {
+  font-size: 1.6rem;
+}
+.container {
+  max-width: 107rem;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid {
+  display: grid;
+}
+.grid-1-cols {
+  grid-template-columns: 1fr;
+}
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+button:hover,
+.product-image-small:hover,
+.delete-icon:hover {
+  cursor: pointer;
+}
+
+.show {
+  display: block !important;
+}
+
+/* 
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Dark Blue: hsl(233, 26%, 24%)
+- Lime Green: hsl(136, 65%, 51%)
+- Bright Cyan: hsl(192, 70%, 51%)
+
+### Neutral
+
+- Grayish Blue: hsl(233, 8%, 62%)
+- Light Grayish Blue: hsl(220, 16%, 96%)
+- Very Light Gray: hsl(0, 0%, 98%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 18px
+
+### Font
+
+- Family: [Public Sans](https://fonts.google.com/specimen/Public+Sans)
+- Weights: 300, 400, 700
+*/
