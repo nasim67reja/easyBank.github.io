@@ -21,6 +21,7 @@ html {
 body {
   font-family: "Public Sans", sans-serif;
   background-color: var(--lg-blue);
+  /* overflow: hidden; */
 }
 a:link,
 a:visited,
@@ -40,6 +41,10 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.column {
+  display: flex;
+  flex-direction: column;
 }
 .grid {
   display: grid;
@@ -64,6 +69,16 @@ button:hover,
 
 .show {
   display: block !important;
+}
+.none {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
 }
 .btn:link,
 .btn:visited {
