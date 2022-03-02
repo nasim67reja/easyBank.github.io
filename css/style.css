@@ -56,3 +56,80 @@
 .hero-img {
   transform: translate(10rem, -12rem);
 }
+
+/* /////////////////////////////// */
+/* Section Feature */
+/* /////////////////////////////// */
+.section-features {
+  padding-bottom: 9.5rem;
+}
+.features-header {
+  max-width: 61rem;
+  margin-bottom: 7.5rem;
+}
+.heading-secondary {
+  font-size: 4rem;
+  margin-bottom: 3.5rem;
+}
+.features-content .grid {
+  gap: 2rem;
+}
+
+.feature-column {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.feature-icon svg {
+  width: 8rem;
+  height: 8rem;
+}
+
+.heading-tertiary {
+  font-size: 2rem;
+}
+.features-content p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-top: -1rem;
+}
+
+/* /////////////////////////////// */
+/* Section Cards */
+/* /////////////////////////////// */
+.section-card {
+  background-color: var(--vl-gray);
+  padding: 9.5rem 0 8rem 0;
+}
+
+.card {
+  max-width: 25.5rem;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+.card img {
+  width: 100%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.card-content {
+  margin-top: 1rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+.card-content span {
+  display: inline-block;
+  color: var(--grayish-blue);
+}
+h4 {
+  font-size: 1.8rem;
+}
+
+.card-content .description {
+  font-size: 1.3rem;
+  line-height: 1.4;
+  margin-bottom: 0;
+}
