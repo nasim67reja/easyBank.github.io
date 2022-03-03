@@ -10,7 +10,6 @@
 }
 
 .header-content {
-  /* border: 2px solid black; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,8 +34,9 @@
 
 /* Section hero */
 
-.section-hero .container {
-  max-width: 127.8rem;
+.hero {
+  grid-template-columns: 40fr 60fr;
+  /* max-width: 127.8rem; */
   padding: 0;
   padding-left: 3rem;
   margin: 0;
@@ -44,17 +44,17 @@
   align-items: center;
   gap: 2rem;
 }
-
 .hero-img-box {
   background: url("../images/bg-intro-desktop.svg");
   background-size: 122% 113%;
   background-repeat: no-repeat;
   background-position: 20% 231%;
-  height: 78rem;
-  width: 74.5rem;
+  /* height: 78rem; */
+  /* width: 74.5rem; */
   overflow: hidden;
 }
 .hero-img {
+  width: 100%;
   transform: translate(10rem, -12rem);
 }
 
