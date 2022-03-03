@@ -1,0 +1,56 @@
+@media (max-width: 75em) {
+  html {
+    font-size: 56%;
+  }
+}
+@media (max-width: 66em) {
+  html {
+    font-size: 52%;
+  }
+}
+@media (max-width: 61em) {
+  html {
+    font-size: 48%;
+  }
+}
+@media (max-width: 56.25em) {
+  html {
+    font-size: 45%;
+  }
+  .features-content .grid,
+  .cards .grid {
+    padding: 0 5rem;
+    gap: 4rem;
+    column-gap: 18rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cards .grid {
+    column-gap: 0rem;
+    justify-items: center;
+  }
+  .card {
+    max-width: 28.5rem;
+  }
+}
+@media (max-width: 46.25em) {
+  html {
+    font-size: 40%;
+  }
+}
+@media (max-width: 43em) {
+  html {
+    font-size: 36%;
+  }
+}
+@media (max-width: 37.5em) {
+  html {
+    font-size: 50%;
+  }
+  /* section hero */
+  .hero,
+  .features-content .grid,
+  .cards .grid,
+  .footer-parent {
+    grid-template-columns: 1fr;
+  }
+}
