@@ -34,6 +34,9 @@
 
 /* Section hero */
 
+.section-hero {
+  background-color: #fff;
+}
 .hero {
   grid-template-columns: 40fr 60fr;
   /* max-width: 127.8rem; */
@@ -46,11 +49,10 @@
 }
 .hero-img-box {
   background: url("../images/bg-intro-desktop.svg");
-  background-size: 122% 113%;
+  background-size: 122% 117%;
   background-repeat: no-repeat;
   background-position: 20% 231%;
-  /* height: 78rem; */
-  /* width: 74.5rem; */
+  margin-bottom: -29rem;
   overflow: hidden;
 }
 .hero-img {
@@ -62,7 +64,7 @@
 /* Section Feature */
 /* /////////////////////////////// */
 .section-features {
-  padding-bottom: 9.5rem;
+  padding: 10rem 0;
 }
 .features-header {
   max-width: 61rem;
