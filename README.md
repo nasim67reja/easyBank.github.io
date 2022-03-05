@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/screenshot.png)
+![](images/Screenshot.png)
 
 ### Links
 
@@ -52,12 +52,6 @@ working with svg background was so tough for me.Use svg in my html file was diff
 <svg>
   <use href="#facebook"></use>
 </svg>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
 ```
 
 ```js
