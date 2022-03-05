@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/nasim67reja/easyBank.github.io)
-- Live Site URL: [Live Link](https://your-live-site-url.com)
+- Live Site URL: [Live Link](https://nasim67reja.github.io/easyBank.github.io/)
 
 ### Built with
 
