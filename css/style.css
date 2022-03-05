@@ -4,6 +4,12 @@
   height: 8rem;
   padding: 2rem 0 3rem 0;
 }
+.sticky {
+  position: fixed;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 1000;
+}
 .h-icon {
   display: none;
 }
@@ -135,10 +141,15 @@
   display: inline-block;
   color: var(--grayish-blue);
 }
-h4 {
+.big-text {
   font-size: 1.6rem;
+  color: var(--dk-blue) !important;
+  cursor: pointer;
+  transition: all 0.3s;
 }
-
+.big-text:hover {
+  color: var(--grayish-blue) !important;
+}
 .card-content .description {
   font-size: 1.3rem;
   line-height: 1.4;

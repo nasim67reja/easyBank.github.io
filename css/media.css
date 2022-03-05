@@ -173,6 +173,9 @@
   .card-content span {
     font-size: 1.3rem;
   }
+  .big-text {
+    font-size: 1.6rem !important;
+  }
   .card-content .description {
     font-size: 1.4rem;
   }

@@ -25,3 +25,15 @@ close.addEventListener("click", function () {
   hambergur.style.display = "inline-block";
   close.style.display = "none";
 });
+
+// sticky Navigation
+const section1 = document.querySelector("#section1");
+const mainHeader = document.querySelector(".header");
+
+const initialCoords = section1.getBoundingClientRect();
+
+window.addEventListener("scroll", function () {
+  if (window.scrollY > initialCoords.top) {
+    mainHeader.classList.add("sticky");
+  } else mainHeader.classList.remove("sticky");
+});
